@@ -8,7 +8,7 @@ name: AzGovViz_OIDC
 
 env:
   OutputPath: wiki
-  ManagementGroupId: <Management Group Id> #provide the Management Group Id, not the displayName
+  ManagementGroupId: alz #provide the Management Group Id, not the displayName
   ScriptDir: pwsh #example: 'my folder\pwsh' or 'my folder/pwsh'
   ScriptPrereqFile: prerequisites.ps1
   ScriptFile: AzGovVizParallel.ps1
